@@ -1,0 +1,91 @@
+.rodbody{
+	background: url('../images/e404/rob.png') no-repeat 0 0;
+	width: 240px;
+	height: 247px;
+	right: 15px;
+	position: absolute;
+	top: -400px;
+	left: 200px;
+}
+
+.rodbodyParafuso{
+	background: url('../images/e404/rob.png') no-repeat -403px 0;
+	width: 51px;
+	height: 31px;
+	position: absolute;
+	top: -400px;
+	left: 440px;
+
+}
+.rodboryParafusoDois{
+	background: url('../images/e404/rob.png') no-repeat -481px -1px;
+	width: 45px;
+	height: 28px;
+	position: absolute;
+	top: -400px;
+	left: 240px;
+}
+
+.rodbodyParafusoTres{
+	background: url('../images/e404/rob.png') no-repeat -353px -45px;
+	width: 50px;
+	height: 35px;
+	position: absolute;
+	top: -400px;
+	left: 255px;
+}
+.rodbodyCaixa{
+	background: url('../images/e404/rob.png') no-repeat -333px 0;
+	width: 48px;
+	height: 38px;
+	position: absolute;
+	top: -400px;
+	left: 180px;
+}
+.rodbodyPecas{
+	background: url('../images/e404/rob.png') no-repeat -339px -97px;
+	width: 127px;
+	height: 109px;
+	position: absolute;
+	top: -400px;
+	left: 310px;
+}
+
+.rodbodyMola{
+	background: url('../images/e404/rob.png') no-repeat -454px -38px;
+	width: 88px;
+	height: 49px;
+	position: absolute;
+	top: -400px;
+	left: 450px;
+}
+
+.messageError h1{	
+	font-weight: bold;
+	position: absolute;
+	top: 50px;
+	left: 10%;
+	position: absolute;
+	margin: 0 0 .1em 0;
+	font-size: 6em;
+	letter-spacing: .03em;
+	line-height: 1;
+	color: #a9a9a9;	
+	
+}
+.messageError h2{
+	margin-top: -37px;
+	top: 170px;
+	left: 10%;
+	position: absolute;
+	font-size: 1.9em;
+	letter-spacing: .03em;
+	line-height: 1;
+	color: #a9a9a9;
+	
+}
+.messageError img{
+	top: 380px;
+	left: 50%;
+	position: absolute;
+}

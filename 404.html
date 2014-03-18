@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Error Animate - 404</title>
+	<link rel="stylesheet" href="css/basic.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<meta charset="UTF-8">
+	<style type="text/css">		
+		html {
+			background: #efefef url('/images/e404/icone-g.png') no-repeat right top;
+		}
+
+	</style>
+</head>
+	<body>
+	<div class="page-e404">
+	<center>
+		<div class="rodbody"></div>			
+		<div class="rodbodyParafuso"></div>
+		<div class="rodboryParafusoDois"></div>
+		<div class="rodbodyParafusoTres"></div>
+		<div class="rodbodyCaixa"></div>
+		<div class="rodbodyPecas"></div>
+		<div class="rodbodyMola"></div>
+
+		<div class="messageError">
+			<h1>404</h1>	
+			<h2>Ops! Página ou link não encontrados! :(</h2>
+		</div>
+	</center>		
+	<script type="text/javascript">
+		$(document).ready(function (){
+			
+		$('.rodbodyMola').animate({top:"600"}, 300,  function (){ 
+		$('.rodbodyMola').animate({top:"-=20"},150, function(){ 
+			$('.rodbodyMola').animate({top:"+=20"},150, function(){})
+		})}); 
+
+		$('.rodbodyParafuso').animate({top:"570"}, 300,  function (){ 
+		$('.rodbodyParafuso').animate({top:"-=23"},150, function(){ 
+			$('.rodbodyParafuso').animate({top:"+=23"},150, function(){})
+		})}); 
+
+		$('.rodboryParafusoDois').animate({top:"580"}, 300,  function (){ 
+		$('.rodboryParafusoDois').animate({top:"-=24"},150, function(){ 
+			$('.rodboryParafusoDois').animate({top:"+=24"},150, function(){})
+		})}); 
+		
+		$('.rodbodyParafusoTres').animate({top:"615"}, 270,  function (){ 
+		$('.rodbodyParafusoTres').animate({top:"-=22"},150, function(){ 
+			$('.rodbodyParafusoTres').animate({top:"+=22"},150, function(){})
+		})}); 
+
+		$('.rodbodyCaixa').animate({top:"570"}, 280,  function (){ 
+		$('.rodbodyCaixa').animate({top:"-=25"},150, function(){ 
+			$('.rodbodyCaixa').animate({top:"+=25"},150, function(){})
+		})}); 
+
+		$('.rodbodyPecas').animate({top:"520"}, 250,  function (){ 
+		$('.rodbodyPecas').animate({top:"-=20"},150, function(){ 
+			$('.rodbodyPecas').animate({top:"+=20"},150, function(){ 
+
+				$('.rodbody').animate({top:"300"},350, function(){ 
+
+				$('.rodbodyMola').animate({top:"-=36"},150, function(){ 
+					$('.rodbodyMola').animate({top:"+=36"},150, function(){ })
+	 			});
+	 			$('.rodbodyParafuso').animate({top:"-=37"},150, function(){ 
+					$('.rodbodyParafuso').animate({top:"+=37"},150, function(){ })
+	 			});
+	 			$('.rodboryParafusoDois').animate({top:"-=34"},150, function(){ 
+					$('.rodboryParafusoDois').animate({top:"+=34"},150, function(){ })
+	 			});
+	 			$('.rodbodyParafusoTres').animate({top:"-=36"},150, function(){ 
+					$('.rodbodyParafusoTres').animate({top:"+=36"},150, function(){ })
+	 			});
+	 			$('.rodbodyCaixa').animate({top:"-=27"},150, function(){ 
+					$('.rodbodyCaixa').animate({top:"+=27"},150, function(){ })
+	 			});
+	 			$('.rodbodyPecas').animate({top:"-=15"},150, function(){ 
+					$('.rodbodyPecas').animate({top:"+=15"},150, function(){ })
+		 		});
+				})
+			})})
+		})});
+	</script>
+	</div>
+	</body>
+</html>
